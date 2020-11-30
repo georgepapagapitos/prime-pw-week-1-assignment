@@ -1,6 +1,67 @@
 /* Give your page a fun background color */
+body {
+  background: #68b0ab;
+  font-family: "Montserrat";
+  margin: 0;
+  height: 100%;
+  text-align: center;
+}
+
+.body {
+   padding: 10px;
+   padding-bottom: 60px;
+}
+
+.header {
+   background: #ecf4f3;
+   padding: 10px;
+}
+
+h1 {
+  color: #68b0ab;
+  font-weight: 900;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  background: #006a71;
+  margin-top: 25px;
+  border-radius: 50%;
+  border-width: 20px;
+  border-color: #ff7e67;
+  border-style: solid;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+}
+
+.list {
+  font-family: "Ubuntu";
+  font-size: 15px;
+}
+
+.footer {
+  background: #ecf4f3;
+   bottom: 0;
+   width: 100%;
+   height:  60px;
+   text-align: center;
+}
+
+
+
 
 /* Make the header and footer a different color from the background */
+
+
+
 
 /* Align the h1 containing your name in the center of the header*/
 
@@ -9,3 +70,11 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+
+
+
+
+p {
+  color: #006a71;
+}
