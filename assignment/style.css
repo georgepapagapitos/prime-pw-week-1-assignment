@@ -1,80 +1,76 @@
 /* Give your page a fun background color */
+/* Align the h1 containing your name in the center of the header*/
 body {
-  background: #68b0ab;
   font-family: "Montserrat";
-  margin: 0;
-  height: 100%;
   text-align: center;
+  background: #2d4059;
+  margin: auto;
 }
 
-.body {
-   padding: 10px;
-   padding-bottom: 60px;
-}
-
+/* Make the header and footer a different color from the background */
 .header {
-   background: #ecf4f3;
-   padding: 10px;
-}
-
-h1 {
-  color: #68b0ab;
-  font-weight: 900;
-  font-family: "Montserrat";
-  font-size: 3.5rem;
-  line-height: 1.5;
+  display: block;
+  background: #2d4059;
   text-align: center;
-  margin: 0;
+  font-size: 30px;
+  padding: 25px;
 }
 
+.header h1 {
+  text-shadow: 2px 2px 2px #000;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 4.5rem;
+  margin: 0;
+  padding: 10px;
+}
+
+.content {
+  min-height: calc(100vh - 120px);
+  background-color: #ffd460;
+}
+
+/* Put a border around your image */
 img {
-  background: #006a71;
-  margin-top: 25px;
-  border-radius: 50%;
-  border-width: 20px;
-  border-color: #ff7e67;
+  background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_217038.jpg');  
   border-style: solid;
+  border-width: 3px;
+  margin-top: 25px;
+  size: 100%;
+  border-radius: 15px;
+}
+
+#ruby {
+  margin-top: 125px;
+} 
+
+/* Change the font-family of your list */
+#list {
+  font-family: "Ubuntu";
+}
+
+#list-title {
+  padding-top: 50px;
+  font-size: 200%;
+  color: #f07b3f;
+  letter-spacing: 2px;
 }
 
 ul {
-  list-style-type: none;
   display: inline-block;
   text-align: left;
+  font-size: 125%;
+  line-height: 2;
+  color: #f07b3f;
+  letter-spacing: 1.2px;
 }
-
-.list {
-  font-family: "Ubuntu";
-  font-size: 15px;
-}
-
-.footer {
-  background: #ecf4f3;
-   bottom: 0;
-   width: 100%;
-   height:  60px;
-   text-align: center;
-}
-
-
-
-
-/* Make the header and footer a different color from the background */
-
-
-
-
-/* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
-
-/* Put a border around your image */
-
-/* Change the font-family of your list */
-
-
-
-
-
-p {
-  color: #006a71;
+footer {
+  background-color: #2d4059;
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+  padding: 25px;
 }
